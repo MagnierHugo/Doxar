@@ -15,10 +15,10 @@ Doxar is game engine made during a 2 month long School project at G-Tech (Gaming
 
 ### DEVS
 
-@Yalt-167 (ariviale@gaming.tech)
-@Cozyvortexa (amohamed@gaming.tech)
-@PepperWlk (lguillemart@gaming.tech)
-@PiresRuben (rpires@gaming.tech)
-@OryomTV (tvanlaecke@gaming.tech)
-@hattonie (amgeau@gaming.tech)
+@Yalt-167 (ariviale@gaming.tech)\
+@Cozyvortexa (amohamed@gaming.tech)\
+@PepperWlk (lguillemart@gaming.tech)\
+@PiresRuben (rpires@gaming.tech)\
+@OryomTV (tvanlaecke@gaming.tech)\
+@hattonie (amgeau@gaming.tech)\
 @MagnierHugo (hmagnier@gaming.tech)
