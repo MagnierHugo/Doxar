@@ -1,0 +1,123 @@
+{
+    "Scenes": [
+        {
+            "GameObjects": [
+                {
+                    "Components": [
+                        {
+                            "ComponentType": "class Transform",
+                            "Position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rotation": [
+                                0.707099974155426,
+                                -0.707099974155426,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "ComponentType": "class MeshRenderer",
+                            "FileName": "Assets/3D_Models/Low_Poly_Lake/untitled.fbx"
+                        }
+                    ],
+                    "Enabled": true,
+                    "GameObjectName": "Scene"
+                },
+                {
+                    "Components": [
+                        {
+                            "ComponentType": "class Transform",
+                            "Position": [
+                                10.0,
+                                40.0,
+                                25.0
+                            ],
+                            "Rotation": [
+                                0.707099974155426,
+                                -0.707099974155426,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                0.1,
+                                0.1,
+                                0.1
+                            ]
+                        },
+                        {
+                            "ComponentType": "class MeshRenderer",
+                            "FileName": "Assets/3D_Models/Alien_Animal/Test_Alien-Animal-Blender_2.81.fbx"
+                        }
+                    ],
+                    "Enabled": true,
+                    "GameObjectName": "Alien"
+                },
+                {
+                    "Components": [
+                        {
+                            "ComponentType": "class Transform",
+                            "Position": [
+                                -7.612,
+                                6.142,
+                                6.561
+                            ],
+                            "Rotation": [
+                                0.0,
+                                -0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "ComponentType": "class Camera",
+                            "Pitch": 0.0,
+                            "Yaw": 270.0
+                        }
+                    ],
+                    "Enabled": true,
+                    "GameObjectName": "CameraGO"
+                },
+                {
+                    "Components": [
+                        {
+                            "ComponentType": "class Transform",
+                            "Position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rotation": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    ],
+                    "Enabled": true,
+                    "GameObjectName": "GameObject"
+                }
+            ],
+            "Loaded": true,
+            "SceneName": "SceneName1"
+        }
+    ]
+}

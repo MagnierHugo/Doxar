@@ -1,0 +1,14 @@
+# Build
+x64/
+
+# IDE files
+.vs/
+.idea/
+.vscode/
+
+# User specific files
+*.user
+
+# Ignore heavy files
+Libraries/lib/assimp/assimp-vc143-mtd.lib
+Doxygen/libclang.dll

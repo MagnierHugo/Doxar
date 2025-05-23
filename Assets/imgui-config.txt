@@ -1,0 +1,186 @@
+[Window][Debug##Default]
+Pos=60,60
+Size=400,400
+Collapsed=0
+
+[Window][Hi ^^]
+Pos=47,20
+Size=631,591
+Collapsed=0
+
+[Window][Hierarchy]
+Pos=0,19
+Size=213,353
+Collapsed=0
+DockId=0x00000007,0
+
+[Window][Inspector]
+Pos=759,19
+Size=241,353
+Collapsed=0
+DockId=0x0000000A,0
+
+[Window][Choose File##ChooseFileDlgKey]
+Pos=49,102
+Size=679,358
+Collapsed=0
+
+[Window][##OpenDialogCommand]
+Pos=119,122
+Size=631,412
+Collapsed=0
+
+[Window][ CAca]
+Pos=50,27
+Size=359,211
+Collapsed=0
+
+[Window][test]
+Pos=0,359
+Size=1000,241
+Collapsed=0
+DockId=0x00000002,0
+
+[Window][ Test]
+Pos=60,60
+Size=499,143
+Collapsed=0
+
+[Window][test2]
+Pos=0,300
+Size=1000,300
+Collapsed=0
+
+[Window][MainDownWindows]
+Pos=0,200
+Size=1000,300
+Collapsed=0
+
+[Window][TreeNode]
+Pos=225,374
+Size=775,226
+Collapsed=0
+DockId=0x00000005,0
+
+[Window][Arbo]
+Pos=0,374
+Size=223,226
+Collapsed=0
+DockId=0x00000004,0
+
+[Window][DockSpace Demo]
+Pos=0,0
+Size=1000,600
+Collapsed=0
+
+[Window][Rendu]
+Pos=215,19
+Size=542,353
+Collapsed=0
+DockId=0x00000001,0
+
+[Table][0xD863921C,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x383CAB37,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x8F619778,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x67DDE95C,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x13079569,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x9F3CA377,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x017F0AC0,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0xB004AC64,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0xBE654DE1,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x73695CF9,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x49E2F573,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x0FB58510,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x9FC997C6,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x1A3AE5D5,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x4457562D,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0xE25787E8,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x4CAE7645,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x82BC2ED1,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0xB81B6F95,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x427FB630,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x1F0BB1B7,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0x629DA90B,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Table][0xBD02265D,4]
+RefScale=13
+Column 0  Sort=0v
+
+[Docking][Data]
+DockSpace         ID=0xC0DFADC4 Window=0xD0388BC8 Pos=0,19 Size=1000,581 Split=Y
+  DockNode        ID=0x00000003 Parent=0xC0DFADC4 SizeRef=1000,353 Split=X
+    DockNode      ID=0x00000009 Parent=0x00000003 SizeRef=757,581 Split=X
+      DockNode    ID=0x00000007 Parent=0x00000009 SizeRef=213,581 Selected=0xBABDAE5E
+      DockNode    ID=0x00000008 Parent=0x00000009 SizeRef=542,581 Split=Y
+        DockNode  ID=0x00000001 Parent=0x00000008 SizeRef=1000,338 CentralNode=1 Selected=0x63DA4E40
+        DockNode  ID=0x00000002 Parent=0x00000008 SizeRef=1000,241 Selected=0x5879BBFD
+    DockNode      ID=0x0000000A Parent=0x00000003 SizeRef=241,581 Selected=0x36DC96AB
+  DockNode        ID=0x00000006 Parent=0xC0DFADC4 SizeRef=1000,226 Split=X Selected=0x15DAE324
+    DockNode      ID=0x00000004 Parent=0x00000006 SizeRef=223,263 Selected=0x15DAE324
+    DockNode      ID=0x00000005 Parent=0x00000006 SizeRef=775,263 Selected=0x1597168F
+

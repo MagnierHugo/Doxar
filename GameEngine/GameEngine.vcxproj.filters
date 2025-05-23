@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Natvis Include="..\Libraries\include\imgui\misc\debuggers\imgui.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--ImGUI .cpp files-->
+    <ClCompile Include="..\Libraries\include\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\imgui.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\Libraries\include\imgui\imgui_widgets.cpp" />
+    <!--Components/-->
+    <ClCompile Include="src\Components\Camera.cpp" />
+    <ClCompile Include="src\Components\MeshRenderer.cpp" />
+    <ClCompile Include="src\Components\Renderable.cpp" />
+    <ClCompile Include="src\Components\Transform.cpp" />
+    <!--Modules/-->
+    <ClCompile Include="src\Modules\AudioManager.cpp" />
+    <ClCompile Include="src\Modules\EditorWindows.cpp" />
+    <ClCompile Include="src\Modules\InputManager.cpp" />
+    <ClCompile Include="src\Modules\RenderModule.cpp" />
+    <ClCompile Include="src\Modules\ResourcesManager.cpp" />
+    <ClCompile Include="src\Modules\ScenesManager.cpp" />
+    <ClCompile Include="src\Modules\ScriptManager.cpp" />
+    <ClCompile Include="src\Modules\Time.cpp" />
+    <ClCompile Include="src\Modules\Window.cpp" />
+    <!--Particle-->
+    <ClCompile Include="src\Particle\Particlesystemclass.cpp" />
+    <ClCompile Include="src\Particle\ParticleShaderClass.cpp" />
+    <ClCompile Include="src\Particle\timerclass.cpp" />
+    <!--Render/-->
+    <!--Dx11/-->
+    <ClCompile Include="src\Render\Dx11\Dx11ImGuiGraphics.cpp" />
+    <ClCompile Include="src\Render\Dx11\Dx11Mesh.cpp" />
+    <ClCompile Include="src\Render\Dx11\Dx11Renderer.cpp" />
+    <ClCompile Include="src\Render\Dx11\Dx11TextureShader.cpp" />
+    <ClCompile Include="src\Render\Color.cpp" />
+    <ClCompile Include="src\Render\Vertex.cpp" />
+    <!--Resources/-->
+    <!--Dx11/-->
+    <ClCompile Include="src\Resources\Dx11\Dx11Texture.cpp" />
+    <ClCompile Include="src\Resources\Model.cpp" />
+    <ClCompile Include="src\Resources\ResourceManager.cpp" />
+    <!--Utilities/-->
+    <ClCompile Include="src\Utilities\Font_awesome.cpp" />
+    <ClCompile Include="src\Utilities\ImGuiFileDialog.cpp" />
+    <ClCompile Include="src\Utilities\Logger.cpp" />
+    <ClCompile Include="src\Utilities\MemoryPool.cpp" />
+    <ClCompile Include="src\Utilities\PerformanceRecord.cpp" />
+    <!--./-->
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--Components/-->
+    <ClInclude Include="include\Components\Camera.hpp" />
+    <ClInclude Include="include\Components\MeshRenderer.hpp" />
+    <ClInclude Include="include\Components\Renderable.hpp" />
+    <ClInclude Include="include\Components\Script.hpp" />
+    <ClInclude Include="include\Components\ScriptAdder.hpp" />
+    <ClInclude Include="include\Components\Transform.hpp" />
+    <!--Modules/-->
+    <ClInclude Include="include\Modules\AudioManager.hpp" />
+    <ClInclude Include="include\Modules\EditorWindows.hpp" />
+    <ClInclude Include="include\Modules\InputManager.hpp" />
+    <ClInclude Include="include\Modules\RenderModule.hpp" />
+    <ClInclude Include="include\Modules\ResourcesManager.hpp" />
+    <ClInclude Include="include\Modules\ScenesManager.hpp" />
+    <ClInclude Include="include\Modules\ScriptManager.hpp" />
+    <ClInclude Include="include\Modules\Time.hpp" />
+    <ClInclude Include="include\Modules\Window.hpp" />
+    <ClInclude Include="include\Modules\ImGUIModule.hpp" />
+    <!--Particle-->
+    <ClInclude Include="include\Particle\Particlesystemclass.hpp" />
+    <ClInclude Include="include\Particle\ParticleShaderClass.hpp" />
+    <ClInclude Include="include\Particle\timerclass.hpp" />
+    <!--Render/-->
+    <!--Dx11/-->
+    <ClInclude Include="include\Render\Dx11\Dx11ImGuiGraphics.hpp" />
+    <ClInclude Include="include\Render\Dx11\Dx11Mesh.hpp" />
+    <ClInclude Include="include\Render\Dx11\Dx11Renderer.hpp" />
+    <ClInclude Include="include\Render\Dx11\Dx11TextureShader.hpp" />
+    <ClInclude Include="include\Render\APIsVariant.hpp" />
+    <ClInclude Include="include\Render\Color.hpp" />
+    <ClInclude Include="include\Render\ImGuiGraphics.hpp" />
+    <ClInclude Include="include\Render\Mesh.hpp" />
+    <ClInclude Include="include\Render\Renderer.hpp" />
+    <ClInclude Include="include\Render\Shader.hpp" />
+    <ClInclude Include="include\Render\Vertex.hpp" />
+    <!--Resources/-->
+    <!--Dx11/-->
+    <ClInclude Include="include\Resources\Dx11\Dx11Texture.hpp" />
+    <ClInclude Include="include\Resources\Model.hpp" />
+    <ClInclude Include="include\Resources\Resource.hpp" />
+    <ClInclude Include="include\Resources\ResourceManager.hpp" />
+    <ClInclude Include="include\Resources\Texture.hpp" />
+    <!--Utilities/-->
+    <ClInclude Include="include\Utilities\Dirent.h" />
+    <ClInclude Include="include\Utilities\Discarder.hpp" />
+    <ClInclude Include="include\Utilities\Font_awesome.h" />
+    <ClInclude Include="include\Utilities\ImGUI.hpp" />
+    <ClInclude Include="include\Utilities\ImGuiFileDialog.h" />
+    <ClInclude Include="include\Utilities\ImGuiFileDialogConfig.h" />
+    <ClInclude Include="include\Utilities\Logger.hpp" />
+    <ClInclude Include="include\Utilities\MemoryPool.hpp" />
+    <ClInclude Include="include\Utilities\MulticastDelegate.hpp" />
+    <ClInclude Include="include\Utilities\ObjectPooling.hpp" />
+    <ClInclude Include="include\Utilities\PerformanceRecord.hpp" />
+    <ClInclude Include="include\Utilities\PoolAllocator.hpp" />
+    <ClInclude Include="include\Utilities\WICTextureLoader.h" />
+    <!--./-->
+    <ClInclude Include="include\Common.hpp" />
+    <ClInclude Include="include\Component.hpp" />
+    <ClInclude Include="include\Engine.hpp" />
+    <ClInclude Include="include\GameObject.hpp" />
+    <ClInclude Include="include\Module.hpp" />
+    <ClInclude Include="include\Scene.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Libraries\include\imgui\misc\debuggers\imgui.natstepfilter" />
+    <None Include="include\Modules\ScenesManager.inl" />
+    <None Include="include\Resources\ResourceManager.inl" />
+    <None Include="include\Utilities\MulticastDelegate.inl" />
+    <None Include="include\Utilities\ObjectPooling.inl" />
+    <None Include="include\Utilities\PoolAllocator.inl" />
+    <None Include="include\Component.inl" />
+    <None Include="include\GameObject.inl" />
+    <None Include="include\Scene.inl" />
+    <None Include="src\Texture\ParticlePS.hlsl" />
+    <None Include="src\Texture\ParticleVS.hlsl" />
+  </ItemGroup>
+</Project>
